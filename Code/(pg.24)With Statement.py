@@ -1,5 +1,4 @@
 with open("example.txt", "r") as file:
-    line = file.readline()
-    while line:
+    lines = file.readline()
+    for line in lines:
         print(line.strip())
-        line = file.readline()
