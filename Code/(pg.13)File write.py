@@ -6,6 +6,7 @@ def main():
     outfile.write("John Lorke\n")
     outfile.write("David Hume\n")
     outfile.write("Emund Burke\n")
+    outfile.write("Pasuthorn\n")
 
     #Close the file.
     outfile.close()
