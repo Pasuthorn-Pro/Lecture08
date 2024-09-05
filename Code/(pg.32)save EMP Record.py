@@ -8,7 +8,7 @@ with open("employee.txt", "w") as emp_file:
 
         emp_file.write(name + "\n")
         emp_file.write(id_num + "\n")
-        emp_file.write(dept + "\n")
+        emp_file.write(dept + "\n""\n")
         print()
 
 print("Employee records written to employee.txt")
